@@ -212,3 +212,21 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   text-decoration: none;
   font-weight: 800;
 }
+.project-card-text {
+font-family: "Roboto";
+font-style: normal;
+font-weight:500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02;
+color: var(--color-navy-blue);
+}
+.project-card-paragraph {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455
+}
