@@ -1,0 +1,150 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 16px 48px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li:not(:last-child) {
+    margin-right: 32px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  address {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  /* Main Styles */
+  main {
+    margin-top: 80px;
+    padding: 48px;
+  }
+  
+  main h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 32px;
+  }
+  
+  main section {
+    margin-bottom: 80px;
+  }
+  
+  main h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 32px;
+  }
+  
+  main section ul li {
+    margin-bottom: 32px;
+  }
+  
+  main section ul li h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  
+  main section ul li p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  main section#3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  main section#3 img {
+    margin-right: 24px;
+  }
+  
+  main section#4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  main section#4 li {
+    flex-basis: calc(50% - 16px);
+    margin-bottom: 32px;
+  }
+  
+  main section#4 h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  
+  main section#4 p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333333;
+    color: #f7f7f7;
+    padding: 32px 48px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 480px;
+  }
+  
