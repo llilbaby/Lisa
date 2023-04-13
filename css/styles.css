@@ -1,5 +1,5 @@
 /* Global Styles */
-* {
+*:root{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +9,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333333;
+  color: #434455;
+  background-color: #FFFFFF;
 }
-
+ 
 ul {
   list-style: none;
 }
@@ -199,4 +200,13 @@ border-radius: 4px;
   background-color: #4D5AE5;
   color: #F4F4FD;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none
 }
