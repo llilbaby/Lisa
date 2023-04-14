@@ -293,68 +293,67 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 .button:focus {
 background-color: #404BBF;
 }
-
 .logo {
-class: link;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-  font-weight: 800;
-}
-
-.logo, a:link, a:visited {
+  class: link;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     text-decoration: none;
-}
-
-.menu
-{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-text-decoration:none;
-}
-
-.menu:hover {
-color: #404bbf;
-
-}
-
-.menu:target {
-color: #404bbf
-}
-
-.project-card-text {
-font-family: "Roboto";
-font-style: normal;
-font-weight:500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02;
-color: var(--color-navy-blue);
-}
-.project-card-paragraph {
-font-family: "Roboto";
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455
-}
-
-list {
-list-style: none;
-}
-
-.portfolio-paragraph {
- font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
+    font-weight: 800;
+  }
+  
+  .logo, a:link, a:visited {
+      text-decoration: none;
+  }
+  
+  .menu
+  {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration:none;
+  }
+  
+  .menu:hover {
+  color: #404bbf;
+  
+  }
+  
+  .menu:target {
+  color: #404bbf
+  }
+  
+  .project-card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight:500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+  color: var(--color-navy-blue);
+  }
+  .project-card-paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455
+  }
+  
+  list {
+  list-style: none;
+  }
+  
+  .portfolio-paragraph {
+   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
